@@ -1,14 +1,18 @@
 #include "main.h"
 
 /**
- *factoria - function that returns the factorial of a given number
- *@n: integer number
- *Return:factorial
- *Otherwise: -1 (on errror)
+ *factorial - function that returns the factorial of a given number
+ *
+ *@n:integer number
+ *
+ *Return: factorial of n
+ *
+ *Otherwise: -1 (on error)
  *
  */
 int factorial(int n)
 {
+
 	if (n < 0)
 	{
 		return (-1);
