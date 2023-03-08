@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ *factoria - function that returns the factorial of a given number
+ *@n: integer number
+ *Return:factorial
+ *Otherwise: -1 (on errror)
+ *
+ */
+int factorial(int n)
+{
+	if (n == 0 || n == 1)
+	{
+		return (1);
+	}
+	else
+	{
+		return (n * factorial(n - 1));
+	}
+}
