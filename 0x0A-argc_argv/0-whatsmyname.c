@@ -1,18 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- *_whatsmyname - funtion that prints program name
+ *main - funtion that prints program name
  *
- *@argc:argument count
+ *@argc:number of argument
  *
- *@argv:argument vector
+ *@argv:array argument
  *
  *Return: 0 (on Success)
  *
  */
-int _whatsmyname(int argc, char *argv[])
+int main(int argc, char **argv[])
 {
-	_putchar(argv[0]);
-	_putchar('\n');
+	printf("%s\n", argv[0]);
 	return (0);
 }
